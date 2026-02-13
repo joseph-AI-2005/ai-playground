@@ -1,0 +1,39 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Conda
+.conda/
+*.conda
+
+# VS Code
+.vscode/
+
+# Data & Models (usually too large for git)
+data/
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Logs & Outputs
+runs/
+logs/
+outputs/
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
+!.gitkeep
+!data/.gitkeep
+!models/.gitkeep
